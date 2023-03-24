@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jao Portfolio</title>
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- AOS effect -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbarScroll">
+      <div class="container">
+        <a class="navbar-brand pl-4" href="#home"><span>Portfolio</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-5" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#services">Services</a>
+            <!-- <a class="nav-link" href="#portfolio">Portfolio</a> -->
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home secttion design -->
+    <section class="home" id="home">
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        class="home-content"
+      >
+        <h3>Hello! It's Me!</h3>
+        <h1>Joshua Ortiz</h1>
+        <h3>And I'm a <span> Frontend Developer</span></h3>
+        <p>
+          A successful website does three things
+          It attracts the right kinds of visitors.
+          Guides them to the main services or product you offer.
+          Collect Contact details for future ongoing relation. 
+        </p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/Kindhearted.14/" 
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://twitter.com/home">
+            <i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/leeminjao/?hl=en" 
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+        <a
+          href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=eb6b70e676&attid=0.1.3&permmsgid=msg-f:1760859938794420391&th=186fd4c8ef0eb8a7&view=att&disp=safe&saddbat=ANGjdJ_4kFr1UfXsonWCliOFiy6P9uQuzqwrOmLQYH_9JzD0nQj832CK7cs_26ul2LsN2KUEeZ9aPKjyAm1fLYE4oIhELhNKBkYOhL915qrblrJJaP3cYc0Xk7JXoXeC56WYm3-5uZZkBvQiJQoGxNKwc_eGDeWSoa41V-hE9thfoyIFEd4qMS_Hp5kAewyFJfeHLogJpCfrBcsLXfnoe45eNkoB5WPFTOJQR2a6JTAFPO61tUMACzf8wYOKqwezK3jvVmtL0IlY40oV8tZVrFlRlJvBx_g_uBRMsV0SYboSJPXJkMYLcRSSy00AJywJUYtvgjrJ5ZlHul7Lc1aUGEcv6MeCikQGKed9v73hLUX7g4H5-LhZ0E6MNdz3KQ5Qd-GoDxAVhP6HKzS_4M8JOTPxAfggn8X1N6EYrDRjnu0RAZPsJkpqXG-2ZRARrW0ejKXUeUd_2G8CeSOKFcOOMqqPPmr3LpjzCSACSXGCdfMY64aeT6WWX5ioyQDUX4JKvSxowBnjw5fXRz8rBpRjXEd1uVSRNdS1TyC_lkKSK9jIVLWoGLfg9VFnZmxsL9cTdipoIAWG-tl3OJwaSMUKqLmz85awf5pOrXmwO9Qe6mlydkFuCAFGkFxZteyfu97HeGhpCl572apVeILP2-tXP4RvtNy9WvEZDAU-TmEIwcMYHltbL037XjatWqYPEyzE2njrBmwLLGskw5DkcWC6zF3nBIi8bfPWh52B2ZEYzYcA0hJ5KXNNGoYj28ukuCmfwwVFU5kuO9VSUgt_Vnebx0GHugBVmi6XuveUqIldP6DzGgdXQ-1HarhYz6kErnuXHw_7_RfxmcjuE78njEpZgIOMKm4pRqfPQjiI791pANbvakB1NH6jwiYtCRHTHRzMKfqJ50FvIVMwjWkRJg_gZF3uZHUTPi7_6zgV4VQJUQuZfDKgzbgLHYHNVoer2LHrLLQT6tloAREVclI9OViUKwYEHbNrbiTVMKYAEeKFa8jYEDhOIeQGQRCf5iYiQfZBcRdcXumrDuDTSaLhIAE9"
+          class="btn"
+          >Download CV</a
+        >
+      </div>
+
+      <div class="home-img p-5"></div>
+      <img class="image" src="images/gradpicture2.0.png" alt="" />
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/picture1.jpg" alt="" />
+      </div>
+
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        class="about-content"
+      >
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p>
+          Hi! i'm Jao i love playing basketball and video games such a DOTA2. 
+          I am now currently enrolled in KodeGo Bootcamp, and excited to become 
+          a full stack developer
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        class="services-container"
+      >
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            A successful website does three things:
+            It attracts the right kinds of visitors.
+            Guides them to the main services or product you offer.
+            Collect Contact details for future ongoing relation.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-paint"></i>
+          <h3>Graphic design</h3>
+          <p>
+            Color is not just there to make a design look good, but to reinforce its message. 
+            Its presence should not be regarded as an afterthought, but a fundamental element of any design.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Digital Marketing</h3>
+          <p>
+            To continue winning the internet marketing game, your content has to be more that just brilliant,
+             it has to give the people consuming that content the ability to become a better version of themselves.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section design
+    <section class="portfolio" id="portfolio">
+      <h1>MY <span>Portfolio</span></h1>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <a href="https://jaowo.github.io/Jao-Coffee-Shop/"
+              ><img
+              
+                src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=400"
+                
+                class="d-block w-25 mx-auto p-2" style="width: 100; "
+                alt="Coffee shop"
+            /></a>
+
+            <a href="123" class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button"><a href="https://jaowo.github.io/Jao-Coffee-Shop/">Coffee Website</a></button></a> 
+          </div>
+          <div class="carousel-item">
+            <a
+              href="https://jaowo.github.io/Jao-First-Website/"
+              ><img 
+              src="images/webdev3.jpg" class="d-block w-25 mx-auto p-2" style="width: 100;"
+               alt="Web dev"
+              
+              href="1234" class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button">My first Website</button></a> 
+               
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://jaowo.github.io/Jao-DogPhotoBlog/" >
+              
+            <img
+              src="https://images.pexels.com/photos/15942311/pexels-photo-15942311.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="d-block w-25 mx-auto p-2" style="width: 100; "
+              alt="Dog Website"
+
+              href="12345" class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button">Dog Website</button></a> 
+            </a>
+           
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section> -->
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number " />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Jao Ortiz || All Rights Reserve.</p>
+      </div>
+
+      <div class="footer-icon">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
